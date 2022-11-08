@@ -17,74 +17,10 @@ Above you will define the character to be used in the bitmaps below for each spr
 You can change the part after const and the part in between the quotations.
 ```
 setLegend(
-  [ player, bitmap`
-................
-..........D.....
-....DDDDDDDDD...
-...DDDDDDDDDDDD.
-...DDDDDDDDDDDD.
-...DDDDDDDDDDDD.
-...DDDDDDDDDDD..
-....DD.DDDDDD...
-....D..DDD......
-.......DDD......
-.......DDD......
-.......DDD......
-.......DDD......
-................
-................
-................` ],
-  [ box, bitmap`
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCC` ],
-  [ goal, bitmap`
-7777777777777777
-7777777777777777
-7777DDDDDDD77777
-7DDD777777777777
-DD77777777777777
-D777777777777777
-D777777777777777
-D7777DD777777777
-D7777DDDDD777777
-D777777777DD7777
-D7777777777DD777
-DD7777777777D777
-7D777777777DD777
-7DD7777777DD7777
-77DDD777DDD77777
-77777DDD77777777` ],
-  [ obstacle, bitmap`
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999
-9999999999999999` ]
+  [ player, bitmap`.` ],
+  [ box, bitmap`.` ],
+  [ goal, bitmap`.` ],
+  [ obstacle, bitmap`.` ]
 );
 ```
 Use the bitmap edit button in order to edit how a sprite looks. To create a bitmap simple do add a line like [ player, bitmap`.` ], where player is equal to the name of your sprite as set in the list of consts.
